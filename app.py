@@ -62,8 +62,7 @@ if st.session_state.chat_active:
             "emoji": emoji
         })
 
-        # Refresh to clear input
-        st.experimental_rerun()
+        
 
     # Show chat history
     st.markdown("---")
